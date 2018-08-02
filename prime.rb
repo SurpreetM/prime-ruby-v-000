@@ -5,7 +5,7 @@ def prime?(integer)
 
   else
   if (2..integer-1).to_a.all? do |d|
-    integer % d != 0
+    integer % d == 0
     result = true
     end
   end
